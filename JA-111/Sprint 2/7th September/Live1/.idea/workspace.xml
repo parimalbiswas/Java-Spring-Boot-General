@@ -5,20 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61233ce5-2f4d-4236-83f4-b750f0b619f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Live1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/P9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/live/inputTake/P1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../7th September.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8th September/Live8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8th September/Live8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8th September/Live8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8th September/Live8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8th September/Live8/Live8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../8th September/Live8/src/P1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live1/MyClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live1/MyClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live1/P8.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live1/P8.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,14 +46,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
