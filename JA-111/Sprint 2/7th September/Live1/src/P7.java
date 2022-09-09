@@ -15,7 +15,8 @@ public class P7 {
         return  null;
     //        return  new Employee();
     }
-    public static void main(String[] args) {
+    public static void main(String[] args)
+    {
         Employee emp = new Employee();
 
     }
