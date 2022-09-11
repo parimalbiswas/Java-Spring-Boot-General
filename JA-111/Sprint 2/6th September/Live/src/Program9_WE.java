@@ -19,9 +19,10 @@ public class Program9_WE {
         yourAcc2.balance=20000;
         yourAcc2.name="Arjun";
 
+//        Program9_WE.bankName="Sumo";
 
         System.out.println(yourAcc.balance+" "+ yourAcc.name);
-        System.out.println(Program9_WE.bankName);
+        System.out.println(Program9_WE.bankName="Sumo");
 
 
 

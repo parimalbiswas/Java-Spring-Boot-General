@@ -1,11 +1,11 @@
 class MyClass{
     int variable;
-    MyClass()  // Default Constractor
+    MyClass()  // Default Constructor
     {
-        System.out.println("hdgvhdg");
+        System.out.println("hedgehog");
     }
 
-    MyClass(int var)  // Parametarized Constractor
+    MyClass(int var)  // Parameterized Constructor
     {
         variable=var;
     }

@@ -15,5 +15,6 @@ public class Program8 {
         p82.y=20;
 
         System.out.println(p81.x);  //50  Output. It will replace 10
+
     }
 }

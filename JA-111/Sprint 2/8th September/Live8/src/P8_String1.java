@@ -1,8 +1,8 @@
 
 public class P8_String1 {
     public static void main(String[] args) {
-        String s1 = "value";  // String Litaral
-        String s2 =  new String("value");  // String with new Bilder
+        String s1 = "value";  // String Literal
+        String s2 =  new String("value");  // String with new Builder
 
         String x;
         String y;
@@ -11,7 +11,7 @@ public class P8_String1 {
 
 
         // Create in stringPool Area
-        String s11 = "Value";  // String Litaral
+        String s11 = "Value";  // String Literal
         String s22 = "Value";
         System.out.println(s11 == s22);
 

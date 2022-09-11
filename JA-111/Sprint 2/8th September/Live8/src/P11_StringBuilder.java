@@ -17,11 +17,7 @@ public class P11_StringBuilder {
         StringBuilder stringBuilder =  new StringBuilder(sb2);
 
 
-
-
-
-
-
+        System.out.println("-----------------------------------------");
         System.out.println("abc".compareTo("abc"));
         System.out.println("a".compareTo("a"));
         System.out.println("a".compareTo("b"));

@@ -17,7 +17,7 @@ class  Simple{
         return x+y;
     }
 
-    static  void ststicMethod()
+    static void ststicMethod()
     {
         System.out.println("static");
     }
