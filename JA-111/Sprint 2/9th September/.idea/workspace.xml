@@ -4,29 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="864dda4e-5024-410e-87cc-91c6c2c2608f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../6th September/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6th September/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6th September/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6th September/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../6th September/6th September.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8th September/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8th September/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8th September/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8th September/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../8th September/8th September.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6th September/Live/src/Program1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6th September/Live/src/Program1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6th September/Live/src/Program8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6th September/Live/src/Program8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../6th September/Live/src/Program9_WE.java" beforeDir="false" afterPath="$PROJECT_DIR$/../6th September/Live/src/Program9_WE.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../7th September/Live1/src/P4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../7th September/Live1/src/P4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../7th September/Live1/src/P6.java" beforeDir="false" afterPath="$PROJECT_DIR$/../7th September/Live1/src/P6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../7th September/Live1/src/P8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../7th September/Live1/src/P8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8th September/Live8/src/P10_ImutableString.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8th September/Live8/src/P10_ImutableString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8th September/Live8/src/P11_StringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8th September/Live8/src/P11_StringBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../8th September/Live8/src/P8_String1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../8th September/Live8/src/P8_String1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="864dda4e-5024-410e-87cc-91c6c2c2608f" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
