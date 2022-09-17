@@ -5,16 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ff14d0b5-9578-4bb0-8f5c-29f897813f2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Q1/_1DownCasting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Q2/_2FinalKeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Q3/_Packages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Q3/one/ABC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Q3/one/String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Q3/two/ABC.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Q4/_4AcesssSpacifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/Q5/_5Abstraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Q1/_1DownCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Q1/_1DownCasting_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/Q5/_5Abstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/Q5/_5Abstraction.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,14 +35,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

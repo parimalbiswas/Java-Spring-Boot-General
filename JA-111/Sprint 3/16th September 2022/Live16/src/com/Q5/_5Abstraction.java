@@ -58,5 +58,5 @@ public class _5Abstraction {
 }
 
 
-// Abstraction class can Provide abstraction from 0 (All concreate) to 100%
+// Abstraction class can Provide abstraction from 0 (All concrete) to 100%
 

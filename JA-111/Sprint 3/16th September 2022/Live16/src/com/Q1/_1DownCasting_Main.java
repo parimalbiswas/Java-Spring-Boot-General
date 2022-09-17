@@ -19,7 +19,7 @@ class Dog extends Animal{
     }
 }
 
-public class _1DownCasting {
+public class _1DownCasting_Main {
     static void DownCasting(Animal animal)
     {
         if (animal instanceof Dog)
