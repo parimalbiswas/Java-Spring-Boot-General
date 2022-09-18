@@ -18,8 +18,10 @@ class  Cat{
 //
 //}
 
-public class _8MultipleInheritanceNotSupport {
-    public static void main(String[] args) {
+public class _8MultipleInheritanceNotSupport
+{
+    public static void main(String[] args)
+    {
 
     }
 }
