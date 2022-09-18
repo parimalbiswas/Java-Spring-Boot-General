@@ -11,8 +11,9 @@ public class _4InitializeMatrix {
 
         // SOLVE YOU PROBLEM
         for (int[] elem: m){
-            for (int[] elem2 : m) {
+            for (int elem2 : elem) {
                 System.out.println(elem2);
+
             }
         }
 
