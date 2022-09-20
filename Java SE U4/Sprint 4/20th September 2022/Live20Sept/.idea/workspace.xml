@@ -5,19 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ac84302f-71ed-4494-b58a-61aff528fd77" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Live20Sept.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Today/_1InterFaceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Today/_2MethodsAnInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Today/_3We.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Today/_4RelationshipBtwnClassAndInterfaces.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Today/_5WE_IsThereConflictMultipleImplimentation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Today/_6DefaultMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Today/_7EarlyLateBinding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/recap/P1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Today/_10EnumSwitch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Today/_11VarArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Today/_8Enums.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Today/_9EnumSwitchCase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,9 +45,9 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application._7EarlyLateBinding">
-    <configuration name="_2MethodsAnInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Today._2MethodsAnInterface" />
+  <component name="RunManager" selected="Application._11VarArgs">
+    <configuration name="_11VarArgs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Today._11VarArgs" />
       <module name="Live20Sept" />
       <extension name="coverage">
         <pattern>
@@ -67,8 +59,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="_3We" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Today._3We" />
+    <configuration name="_2MethodsAnInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Today._2MethodsAnInterface" />
       <module name="Live20Sept" />
       <extension name="coverage">
         <pattern>
@@ -121,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._11VarArgs" />
         <item itemvalue="Application._7EarlyLateBinding" />
         <item itemvalue="Application._6DefaultMethod" />
         <item itemvalue="Application._5WE_IsThereConflictMultipleImplimentation" />
         <item itemvalue="Application._2MethodsAnInterface" />
-        <item itemvalue="Application._3We" />
       </list>
     </recent_temporary>
   </component>
