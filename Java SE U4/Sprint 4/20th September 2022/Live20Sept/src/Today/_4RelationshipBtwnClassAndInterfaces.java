@@ -27,9 +27,9 @@ class Eagle implements BirdInterface,AnimalInterface{
 
 
 public class _4RelationshipBtwnClassAndInterfaces {
-//    class vs interface
-//    interface entends another interfaces
-
-//    class A extends class B, Class C // not support multiple iheritance
 
 }
+
+//    class vs interface
+//    interface entends another interfaces
+//    class A extends class B, Class C // not support multiple iheritance

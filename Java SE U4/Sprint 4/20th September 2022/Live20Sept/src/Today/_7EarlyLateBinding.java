@@ -27,7 +27,7 @@ public class _7EarlyLateBinding {
         Parent p;
         //p = new Parent();
 
-        //:ate Binding
+        //Late Binding
         //p.hi(); //
     }
 }
