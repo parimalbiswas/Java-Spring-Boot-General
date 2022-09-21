@@ -5,20 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a75cb9-cfcf-48b9-99c3-2d30ee1b51de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Live21stSept.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/_1ExceptionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/_2UncheckedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/_3FlowOfControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/_4MultiCatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/others/_1MarkerInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/others/_2AccessSpecifier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack1/One.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack1/SamePackage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pack2/Two.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/_5NestedTryBlock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/_6Finally.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/_7FinallyNotExecuted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/_8Throw.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Live21stSept/exceptionHandling/_3FlowOfControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live21stSept/exceptionHandling/_3FlowOfControl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptionHandling/_4MultiCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptionHandling/_4MultiCatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +47,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application._8Throw">
     <configuration name="_3FlowOfControl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptionHandling._3FlowOfControl" />
       <module name="Live21stSept" />
@@ -68,8 +61,50 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="_4MultiCatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionHandling._4MultiCatch" />
+      <module name="Live21stSept" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptionHandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_6Finally" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionHandling._6Finally" />
+      <module name="Live21stSept" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptionHandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="_8Throw" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptionHandling._8Throw" />
+      <module name="Live21stSept" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptionHandling.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application._8Throw" />
+        <item itemvalue="Application._6Finally" />
+        <item itemvalue="Application._4MultiCatch" />
         <item itemvalue="Application._3FlowOfControl" />
       </list>
     </recent_temporary>
