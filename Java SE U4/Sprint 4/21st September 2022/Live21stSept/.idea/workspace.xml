@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34a75cb9-cfcf-48b9-99c3-2d30ee1b51de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/_5NestedTryBlock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/_6Finally.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/_7FinallyNotExecuted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptionHandling/_8Throw.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Live21stSept/exceptionHandling/_3FlowOfControl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Live21stSept/exceptionHandling/_3FlowOfControl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/exceptionHandling/_4MultiCatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptionHandling/_4MultiCatch.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
