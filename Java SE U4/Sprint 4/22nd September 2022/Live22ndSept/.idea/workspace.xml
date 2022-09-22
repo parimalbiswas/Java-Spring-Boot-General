@@ -4,20 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f901b1d1-b220-4eb3-a26b-c36f9457a24b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Live22ndSept.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_1ThrowPart2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_2WE.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_3CustomException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_4SetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_5MapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_6IterateOverMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_7TreeMapDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/_8Arrays.java" afterDir="false" />
-    </list>
+    <list default="true" id="f901b1d1-b220-4eb3-a26b-c36f9457a24b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
