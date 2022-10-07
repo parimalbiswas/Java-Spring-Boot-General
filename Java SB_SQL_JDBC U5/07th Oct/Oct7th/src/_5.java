@@ -16,10 +16,14 @@ public class _5 {
         students.add(new Student(90,"n6",150));
 
 
-        //Collections.sort();
+        //Method 1
+//        TreeSet<Student> ts = new TreeSet<>(students);
+//
+//        System.out.println(ts);
 
-        TreeSet<Student> ts = new TreeSet<>(students);
-        
+        //Method 1
+        Collections.sort(students);
+        System.out.println(students);
 
     }
 }
