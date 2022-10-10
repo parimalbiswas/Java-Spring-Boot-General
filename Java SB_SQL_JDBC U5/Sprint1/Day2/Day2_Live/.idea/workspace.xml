@@ -5,10 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4570307-fb39-4c84-ac1f-97fb632a15f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MethodReference/Example1/DemoMR1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MethodReference/Example1/IntrMR1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodReference/Example2/DemoMR2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodReference/Example3/DemoMR3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MethodReference/Example3/IntrMR3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MethodReference/Example1/Demo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day2_Live/MethodReference/Example1/DemoMR1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Day2_Live/MethodReference/Example1/DemoMR1.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,13 +54,39 @@
       <recent name="comparable" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DemoMR1">
+  <component name="RunManager" selected="Application.DemoMR3">
     <configuration name="DemoMR1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MethodReference.Example1.DemoMR1" />
       <module name="Day2_Live" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="MethodReference.Example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMR2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodReference.Example2.DemoMR2" />
+      <module name="Day2_Live" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MethodReference.Example2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DemoMR3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MethodReference.Example3.DemoMR3" />
+      <module name="Day2_Live" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MethodReference.Example3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,6 +109,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DemoMR3" />
+        <item itemvalue="Application.DemoMR2" />
         <item itemvalue="Application.DemoMR1" />
         <item itemvalue="Application.DemoStr" />
       </list>
