@@ -14,7 +14,7 @@ public class _2Demo {
         List<String> city1 = Arrays.asList("Delhi","Kolkata","Chennai","Mumbai");
 
 
-        20:54
+
 
     }
 }

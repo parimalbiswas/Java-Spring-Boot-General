@@ -5,7 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e4570307-fb39-4c84-ac1f-97fb632a15f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comparator/StudentCOMTOR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comparator/StudentMarksComp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comparator/StudentRollCom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Comparator/_Demo5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/Intr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtr0/Demo0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtr0/Intr0.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtr1/Demo_FP1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtr1/Demo_LMDA1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtr1/Inter2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtr1/_1Inter2_Impl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtr2/Demo9.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtr2/Inter3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtrString/DemoStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtrString/IntrStr.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtrString/IntrStrIMPLMT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtrStudent/DemoXXX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtrStudent/IntrXXX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtrStudent/IntrXXXImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtrStudent/StudentXXX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtrStudentReturnStdntObjct/Demo_ReStObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtrStudentReturnStdntObjct/Intr_ReturnStudentObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtrStudentReturnStdntObjct/Intr_ReturnStudentObjIMPL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/FunctionalProgramming/parmtrStudentReturnStdntObjct/StudentReturnObj.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/_3Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparable/StudentCOMABLE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/comparable/_Demo4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Day2_Live/_1Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Day2_Live/_1Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/_2Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/_2Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +46,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -33,15 +65,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Comparator" />
+      <recent name="comparable" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="DemoStr" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="FunctionalProgramming.parmtrString.DemoStr" />
+      <module name="Day2_Live" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="FunctionalProgramming.parmtrString.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.DemoStr" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
