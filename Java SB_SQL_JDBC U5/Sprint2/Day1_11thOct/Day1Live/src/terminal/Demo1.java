@@ -34,7 +34,7 @@ public class Demo1
 	{
 		List<String> list = Arrays.asList("one","two","three");
 		
-		Stream<String> s1 = list.stream();
+		Stream<String> s1 = list.stream(); //Terminal Methods
 		
 		s1.forEach(s->System.out.println(s.toUpperCase()));
 		
