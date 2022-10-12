@@ -9,6 +9,7 @@
  * get
  * anyMatch
  * AllMatch
+ * nonMatch
  * 
  * 
  * -----------------Intermidiate Methods----------------
