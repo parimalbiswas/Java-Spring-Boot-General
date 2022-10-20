@@ -1,0 +1,259 @@
+4.Retrieve all the records from the table BORROW where amount in between
+2000 and 3000
+
+mysql> select * from borrow where amount>=2000 AND amount<=3000;
++--------+---------+---------+--------+
+| loanno | cname   | bname   | amount |
++--------+---------+---------+--------+
+| 311    | sunil   | mgroad  |   3000 |
+| 321    | madhuri | chandni |   2000 |
++--------+---------+---------+--------+
+2 rows in set (0.00 sec)
+
+
+
+==========================================================================
+5. Retrieve the details from the table DEPOSIT
+
+mysql> select * from deposit;
++-------+---------+-----------+--------+------------+
+| accno | cname   | bname     | amount | adate      |
++-------+---------+-----------+--------+------------+
+| 101   | Sunil   | MGROAD    |   5000 | 1996-01-04 |
+| 102   | Rahul   | KAROLBAGH |   3500 | 1995-11-17 |
+| 103   | Madhuri | Chandani  |   1200 | 1995-12-17 |
+| 104   | Promoad | MGROAD    |   3000 | 1996-03-27 |
+| 105   | Sandip  | KarolBagh |   2000 | 1996-03-31 |
+| 100   | Anil    | VRCE      |   1000 | 1995-03-01 |
++-------+---------+-----------+--------+------------+
+6 rows in set (0.00 sec)
+
+==========================================================================
+6. Retrieve the customer name, account no of DEPOSIT
+
+mysql> select cname,accno from deposit;
++---------+-------+
+| cname   | accno |
++---------+-------+
+| Sunil   | 101   |
+| Rahul   | 102   |
+| Madhuri | 103   |
+| Promoad | 104   |
+| Sandip  | 105   |
+| Anil    | 100   |
++---------+-------+
+6 rows in set (0.00 sec)
+
+==========================================================================
+7. Retrieve the name of the customer living in NAGPUR.
+
+mysql> select cname from customer where city="nagpur";
++---------+
+| cname   |
++---------+
+| madhuri |
+| pramod  |
++---------+
+2 rows in set (0.00 sec)
+
+
+
+
+
+
+
+
+==========================================================================
+10. Retrieve all the records from the table DEPOSIT where CNAME begins with u.
+
+mysql> select * from deposit where cname LIKE 'p%';
++-------+---------+--------+--------+------------+
+| accno | cname   | bname  | amount | adate      |
++-------+---------+--------+--------+------------+
+| 104   | Promoad | MGROAD |   3000 | 1996-03-27 |
++-------+---------+--------+--------+------------+
+1 row in set (0.00 sec)
+
+
+=====================================================================
+
+
+11. Retrieve all the records from the table BORROW where 2nd character of CNAME is U.
+
+
+mysql> select * from borrow where cname LIKE '_u%';
++--------+-------+--------+--------+
+| loanno | cname | bname  | amount |
++--------+-------+--------+--------+
+| 311    | sunil | mgroad |   3000 |
++--------+-------+--------+--------+
+1 row in set (0.00 sec)
+
+
+=====================================================================
+
+12. Retrieve all the records from the table DEPOSIT where branch name is
+CHANDNI or MGROAD
+
+mysql> select * from deposit where bname ="chandani" OR bname ="mgroad";
++-------+---------+----------+--------+------------+
+| accno | cname   | bname    | amount | adate      |
++-------+---------+----------+--------+------------+
+| 101   | Sunil   | MGROAD   |   5000 | 1996-01-04 |
+| 103   | Madhuri | Chandani |   1200 | 1995-12-17 |
+| 104   | Promoad | MGROAD   |   3000 | 1996-03-27 |
++-------+---------+----------+--------+------------+
+3 rows in set (0.00 sec)
+
+
+
+=====================================================================
+
+13. Retrieve all the records from the table DEPOSIT where branch name is not
+CHANDNI or MGROAD.
+
+
+mysql> select * from deposit where bname !="chandani" and bname !="mgroad";
++-------+--------+-----------+--------+------------+
+| accno | cname  | bname     | amount | adate      |
++-------+--------+-----------+--------+------------+
+| 102   | Rahul  | KAROLBAGH |   3500 | 1995-11-17 |
+| 105   | Sandip | KarolBagh |   2000 | 1996-03-31 |
+| 100   | Anil   | VRCE      |   1000 | 1995-03-01 |
++-------+--------+-----------+--------+------------+
+3 rows in set (0.00 sec)
+
+
+
+
+=====================================================================
+14. Retrieve all the records from DEPOSIT where amount > 1000 and arrange the customer name in
+ascending order
+
+
+mysql> select * from deposit where amount>1000 order by cname;
++-------+---------+-----------+--------+------------+
+| accno | cname   | bname     | amount | adate      |
++-------+---------+-----------+--------+------------+
+| 103   | Madhuri | Chandani  |   1200 | 1995-12-17 |
+| 104   | Promoad | MGROAD    |   3000 | 1996-03-27 |
+| 102   | Rahul   | KAROLBAGH |   3500 | 1995-11-17 |
+| 105   | Sandip  | KarolBagh |   2000 | 1996-03-31 |
+| 101   | Sunil   | MGROAD    |   5000 | 1996-01-04 |
++-------+---------+-----------+--------+------------+
+5 rows in set (0.00 sec)
+
+
+
+
+
+
+=====================================================================
+15. Retrieve all the records from DEPOSIT where amount > 1000 and arrange the customer name in
+descending order.
+
+mysql> select * from deposit where amount>1000 order by cname desc;
++-------+---------+-----------+--------+------------+
+| accno | cname   | bname     | amount | adate      |
++-------+---------+-----------+--------+------------+
+| 101   | Sunil   | MGROAD    |   5000 | 1996-01-04 |
+| 105   | Sandip  | KarolBagh |   2000 | 1996-03-31 |
+| 102   | Rahul   | KAROLBAGH |   3500 | 1995-11-17 |
+| 104   | Promoad | MGROAD    |   3000 | 1996-03-27 |
+| 103   | Madhuri | Chandani  |   1200 | 1995-12-17 |
++-------+---------+-----------+--------+------------+
+5 rows in set (0.00 sec)
+
+
+
+
+
+=====================================================================
+
+16. Retrieve customer details from BORROW table where the third character of
+the customer name is either ‘A’ or ‘D’
+
+mysql> select * from borrow where cname LIKE '__A%' OR  '__D%';
++--------+--------+--------+--------+
+| loanno | cname  | bname  | amount |
++--------+--------+--------+--------+
+| 375    | pramod | mgroad |   8000 |
++--------+--------+--------+--------+
+1 row in set, 1 warning (0.00 sec)
+
+
+
+
+
+
+=====================================================================
+17. Retrieve all the records from the table BORROW where amount is not
+between 2000 and 8000.
+mysql> select * from borrow where amount NOT BETWEEN 2000 AND 8000;
++--------+-------+-------+--------+
+| loanno | cname | bname | amount |
++--------+-------+-------+--------+
+| 201    | anil  | vrce  |   1000 |
++--------+-------+-------+--------+
+1 row in set (0.00 sec)
+
+
+=====================================================================
+
+18. Find out the unique records from the table DEPOSIT
+
+
+mysql> select distinct bname from deposit;
++-----------+
+| bname     |
++-----------+
+| MGROAD    |
+| KAROLBAGH |
+| Chandani  |
+| VRCE      |
++-----------+
+
+
+
+=====================================================================
+
+
+19. Update the amount of all depositors in deposit table by giving them 10% interest (i.e.
+amount=amount * 0.1) where branch is VRCE.
+
+
+
+
+
+
+
+
+=====================================================================
+20. Update the amount of all depositors in deposit table by giving them 10% interest where
+branch is VRCE and customer name ANIL
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
