@@ -1,6 +1,4 @@
-package com.myConsumer;
-
-import com.mypredicate.Student;
+package com.myConsumr;
 
 import java.util.function.Consumer;
 
@@ -13,4 +11,3 @@ public class MyConsumer implements Consumer<String> {
 }
 
 
-1:20

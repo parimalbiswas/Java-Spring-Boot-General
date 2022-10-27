@@ -1,8 +1,10 @@
 package Day5;
 
+import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
@@ -39,10 +41,18 @@ public class Map1
 			System.out.println(string);
 		}
 		
+		List<String> list1 = new ArrayList<>(values1);
+		
+		System.out.println(list1);
 		
 		System.out.println("----Get Key Values Both------");
 		
-		0.38
+		Set<Map.Entry<Integer, String>> total1 = hm1.entrySet();
+		
+		for(Map.Entry<Integer, String> elem1 : total1)
+		{
+			System.out.println(elem1.getKey() +" "+elem1.getValue());;
+		}
 
 	}
 
