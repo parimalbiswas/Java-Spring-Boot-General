@@ -42,7 +42,7 @@ public class Demo5
 			}
 			else
 			{
-				System.out.println("failed...........");
+				System.out.println("No recoed insert...........");
 			}
 
 		}
