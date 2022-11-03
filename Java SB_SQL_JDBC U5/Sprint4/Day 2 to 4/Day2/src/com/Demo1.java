@@ -10,11 +10,21 @@ public class Demo1
 
 	public static void main(String[] args)
 	{
+		try
+		{
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		}
+		catch (ClassNotFoundException e)
+		{
+
+			e.printStackTrace();
+		}
 
 		String url1 = "jdbc:mysql://localhost:3306/web16";
-
-		try (Connection conn1 = DriverManager.getConnection(url1, "root", "India@4444"))
+		Connection conn1 = null;
+		try
 		{
+			conn1 = DriverManager.getConnection(url1, "root", "India@4444");
 
 			Statement st1 = conn1.createStatement();
 
