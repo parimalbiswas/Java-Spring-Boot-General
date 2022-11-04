@@ -12,7 +12,7 @@ public class Demo6
 	{
 		Scanner scanner = new Scanner(System.in);
 
-		System.out.println("Enter Grase Marks...........");
+		System.out.println("Enter roll Marks...........");
 		int roll = scanner.nextInt();
 
 		try

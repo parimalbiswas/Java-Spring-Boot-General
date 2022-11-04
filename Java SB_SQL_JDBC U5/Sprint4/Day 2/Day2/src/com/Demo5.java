@@ -30,7 +30,7 @@ public class Demo5
 
 		try (Connection conn1 = DriverManager.getConnection(url1, "root", "India@4444"))
 		{
-			PreparedStatement ps1 = conn1.prepareStatement("update studentjdbc set marks= marks + ? where marks < 100");
+			PreparedStatement ps1 = conn1.prepareStatement("update studentjdbc set marks= marks + ? where marks < 500");
 
 			ps1.setInt(1, gmarks);
 
