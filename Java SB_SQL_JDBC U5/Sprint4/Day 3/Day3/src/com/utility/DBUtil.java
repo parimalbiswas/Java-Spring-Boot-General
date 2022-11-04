@@ -1,6 +1,36 @@
 package com.utility;
 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
+
 public class DBUtil
 {
+	public static Connection provideConnection()
+	{
+		Connection conn1 = null;
 
+		try
+		{
+			Class.forName("com.mysql.cj.jdbc.Driver");
+		}
+		catch (ClassNotFoundException e)
+		{
+			e.printStackTrace();
+		}
+
+		String utl1 = "jdbc:mysql://localhost:3306/web20";
+
+		try
+		{
+			conn1 = DriverManager.getConnection(utl1, "root", "India@4444");
+		}
+		catch (SQLException e)
+		{
+
+			e.printStackTrace();
+		}
+
+		return conn1;
+	}
 }
