@@ -2,8 +2,12 @@ package com.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
+import com.exception.StudentException;
 import com.model.Student;
 import com.utility.DBUtil;
 
@@ -66,6 +70,90 @@ public class StudentDaoImpl implements StudentDao
 		}
 
 		return message;
+	}
+
+	@Override
+	public int getMarksByRoll(int roll)
+	{
+		int marks = -1;
+
+		try (Connection conn1 = DBUtil.provideConnection())
+		{
+			PreparedStatement ps1 = conn1.prepareStatement("select marks from student where roll = ?");
+
+			ps1.setInt(1, roll);
+			ResultSet rs1 = ps1.executeQuery();
+
+			if (rs1.next())
+			{
+				marks = rs1.getInt("marks");
+			}
+
+		}
+		catch (SQLException e)
+		{
+			System.out.println(e.getMessage());
+		}
+
+		return marks;
+	}
+
+	@Override
+	public Student getStudentByRoll(int roll)
+	{
+		Student student = null;
+
+		try (Connection conn1 = DBUtil.provideConnection())
+		{
+			PreparedStatement ps1 = conn1.prepareStatement("select * from student where roll = ?");
+			ps1.setInt(1, roll);
+
+			ResultSet rs1 = ps1.executeQuery();
+
+			if (rs1.next())
+			{
+				int r = rs1.getInt("roll");
+				String n = rs1.getString("name");
+				int m = rs1.getInt("marks");
+
+				student = new Student(r, n, m);
+			}
+
+		}
+		catch (SQLException e)
+		{
+			System.out.println(e.getMessage());
+		}
+		return student;
+	}
+
+	@Override
+	public List<Student> getAllStudent() throws StudentException
+	{
+		List<Student> listStudents = new ArrayList<>();
+
+		try (Connection conn1 = DBUtil.provideConnection())
+		{
+			PreparedStatement ps1 = conn1.prepareStatement("select * from student");
+			ResultSet rs1 = ps1.executeQuery();
+
+			while (rs1.next())
+			{
+				int r = rs1.getInt("roll");
+				String n = rs1.getString("name");
+				int m = rs1.getInt("marks");
+
+				Student student = new Student(r, n, m);
+				listStudents.add(student);
+			}
+		}
+		catch (SQLException e)
+		{
+			// System.out.println(e.getMessage());
+			throw new StudentException("No student Found");
+		}
+
+		return listStudents;
 	}
 
 }
