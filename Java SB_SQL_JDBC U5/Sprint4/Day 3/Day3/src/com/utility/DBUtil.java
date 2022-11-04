@@ -16,7 +16,7 @@ public class DBUtil
 		}
 		catch (ClassNotFoundException e)
 		{
-			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
 
 		String utl1 = "jdbc:mysql://localhost:3306/web20";
@@ -28,7 +28,7 @@ public class DBUtil
 		catch (SQLException e)
 		{
 
-			e.printStackTrace();
+			System.out.println(e.getMessage());
 		}
 
 		return conn1;
