@@ -12,9 +12,9 @@ public interface StudentDao
 
 	public String insertStudentDetails2(Student student);
 
-	public int getMarksByRoll(int roll);
+	public int getMarksByRoll(int roll) throws StudentException;
 
-	public Student getStudentByRoll(int roll);
+	public Student getStudentByRoll(int roll) throws StudentException;
 
 	public List<Student> getAllStudent() throws StudentException;
 

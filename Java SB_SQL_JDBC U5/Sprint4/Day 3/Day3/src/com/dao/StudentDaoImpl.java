@@ -73,7 +73,7 @@ public class StudentDaoImpl implements StudentDao
 	}
 
 	@Override
-	public int getMarksByRoll(int roll)
+	public int getMarksByRoll(int roll) throws StudentException
 	{
 		int marks = -1;
 
@@ -88,18 +88,23 @@ public class StudentDaoImpl implements StudentDao
 			{
 				marks = rs1.getInt("marks");
 			}
+			else
+			{
+				throw new StudentException("Student not found with roll " + roll);
+			}
 
 		}
 		catch (SQLException e)
 		{
-			System.out.println(e.getMessage());
+			e.printStackTrace();
+			throw new StudentException(e.getMessage());
 		}
 
 		return marks;
 	}
 
 	@Override
-	public Student getStudentByRoll(int roll)
+	public Student getStudentByRoll(int roll) throws StudentException
 	{
 		Student student = null;
 
@@ -118,11 +123,16 @@ public class StudentDaoImpl implements StudentDao
 
 				student = new Student(r, n, m);
 			}
+			else
+			{
+				throw new StudentException("Student does not exist with roll " + roll);
+			}
 
 		}
 		catch (SQLException e)
 		{
-			System.out.println(e.getMessage());
+			e.printStackTrace();
+			throw new StudentException(e.getMessage());
 		}
 		return student;
 	}

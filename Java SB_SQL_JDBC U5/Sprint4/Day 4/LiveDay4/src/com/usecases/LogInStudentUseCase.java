@@ -7,21 +7,22 @@ import com.dao.StudentDaoImpl;
 import com.exception.StudentException;
 import com.model.Student;
 
-public class GetStudentUseCase
+public class LogInStudentUseCase
 {
-
 	public static void main(String[] args)
 	{
-		Scanner scanner = new Scanner(System.in);
+		Scanner sc1 = new Scanner(System.in);
 
-		System.out.println("Enter Roll: -> ");
-		int roll = scanner.nextInt();
+		System.out.println("Enter Student email->");
+		String email = sc1.next();
+
+		System.out.println("Enter Student Password->");
+		String password = sc1.next();
 
 		StudentDao dao1 = new StudentDaoImpl();
-		Student student;
 		try
 		{
-			student = dao1.getStudentByRoll(roll);
+			Student student = dao1.SignedInStudent(email, password);
 			System.out.println(student);
 		}
 		catch (StudentException e)
@@ -29,15 +30,5 @@ public class GetStudentUseCase
 			System.out.println(e.getMessage());
 		}
 
-//		if (student != null)
-//		{
-//			System.out.println(student);
-//		}
-//		else
-//		{
-//			System.out.println("No student exist with this %d roll");
-//		}
-
 	}
-
 }

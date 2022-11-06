@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 import com.dao.StudentDao;
 import com.dao.StudentDaoImpl;
+import com.exception.StudentException;
 
 public class GetMarksUseCase
 {
@@ -17,16 +18,25 @@ public class GetMarksUseCase
 
 		StudentDao dao1 = new StudentDaoImpl();
 
-		int marks = dao1.getMarksByRoll(roll);
-
-		if (marks >= 0)
+		try
 		{
+			int marks = dao1.getMarksByRoll(roll);
 			System.out.println("Marks is" + marks);
 		}
-		else
+		catch (StudentException e)
 		{
-			System.out.println("Student not found with roll -" + roll);
+
+			System.out.println(e.getMessage());
 		}
+
+//		if (marks >= 0)
+//		{
+//			System.out.println("Marks is" + marks);
+//		}
+//		else
+//		{
+//			System.out.println("Student not found with roll -" + roll);
+//		}
 
 	}
 
