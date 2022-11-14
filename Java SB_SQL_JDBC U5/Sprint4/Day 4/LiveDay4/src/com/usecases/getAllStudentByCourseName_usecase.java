@@ -26,6 +26,7 @@ public class getAllStudentByCourseName_usecase
 		}
 		catch (CourseException e)
 		{
+
 			System.out.println(e.getMessage());
 		}
 
