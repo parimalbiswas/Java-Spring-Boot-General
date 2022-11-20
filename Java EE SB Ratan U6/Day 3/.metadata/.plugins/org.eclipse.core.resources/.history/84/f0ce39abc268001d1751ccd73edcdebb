@@ -1,0 +1,25 @@
+package com.parimal.entities;
+
+import javax.persistence.EntityManager;
+import javax.persistence.EntityManagerFactory;
+import javax.persistence.Persistence;
+
+public class Demo
+{
+	public static void main(String[] args)
+	{
+		EntityManagerFactory emf1 = Persistence.createEntityManagerFactory("studentUnit");
+		
+		EntityManager em1 = emf1.createEntityManager();
+		
+		Student student = em1.find(Student.class, 10);
+		
+		if (student !=null)
+		{
+			System.out.println(student);
+		}
+		else {
+			System.out.println("Student Not Found...");
+		}
+	}
+}
