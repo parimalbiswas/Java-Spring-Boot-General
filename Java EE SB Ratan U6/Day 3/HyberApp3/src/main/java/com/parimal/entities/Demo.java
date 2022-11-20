@@ -1,3 +1,4 @@
+//R READ
 package com.parimal.entities;
 
 import javax.persistence.EntityManager;
