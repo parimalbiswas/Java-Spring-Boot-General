@@ -5,6 +5,7 @@ import javax.persistence.*;
 @Entity
 //@Table(name = "table-name")
 @NamedQuery(query = "select e from Employee e where e.eid = :id and e.ename = :name", name ="alieas1" )
+@NamedNativeQuery(query = "Select * from Employee e where e.ename =  :name", resultClass = Employee.class, name = "getPersonByName")
 public class Employee {
 
     @Id

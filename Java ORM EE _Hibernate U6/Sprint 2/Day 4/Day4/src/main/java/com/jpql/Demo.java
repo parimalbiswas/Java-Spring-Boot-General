@@ -13,17 +13,25 @@ public class Demo {
         EntityManager em1 = emf1.createEntityManager();
 
 
+        Query query = em1.createNamedQuery("getPersonByName");
+        query.setParameter("name","hhhh");
 
+        List<Employee> liste = query.getResultList();
 
-
-        Query query = em1.createNativeQuery("Select * from Employee",Employee.class);
-
-        List<Employee> employeeslist = query.getResultList();
-
-        for (Employee e : employeeslist) {
+        for (Employee e : liste) {
             System.out.println(e);
         }
-        
+
+
+
+//        Query query = em1.createNativeQuery("Select * from Employee",Employee.class);
+//
+//        List<Employee> employeeslist = query.getResultList();
+//
+//        for (Employee e : employeeslist) {
+//            System.out.println(e);
+//        }
+
 
 
 
