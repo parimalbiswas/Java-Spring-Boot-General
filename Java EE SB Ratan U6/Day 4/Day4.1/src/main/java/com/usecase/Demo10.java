@@ -7,7 +7,7 @@ import javax.persistence.Query;
 
 import com.util.EMUtil;
 
-public class Demo8
+public class Demo10
 {
 	public static void main(String[] args)
 	{
@@ -17,12 +17,19 @@ public class Demo8
 
 		Query query = em1.createQuery(jpql);
 
-		List<Integer> list1 = query.getResultList();
-		// 37.59
+		List<Object[]> list = query.getResultList();
 
-		list1.forEach(s -> System.out.println(s));
+		for (Object[] objects : list)
+		{
+			String name = (String) objects[0];
 
-		em1.close();
+			Integer balance = (Integer) objects[1];
+
+			System.out.println("Name is--" + name);
+			System.out.println("Balance is---" + balance);
+
+			System.out.println("===========================");
+		}
 
 	}
 }
