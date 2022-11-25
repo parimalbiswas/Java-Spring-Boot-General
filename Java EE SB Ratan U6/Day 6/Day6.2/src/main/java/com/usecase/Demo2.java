@@ -1,5 +1,7 @@
 package com.usecase;
 
+import java.util.List;
+
 import javax.persistence.EntityManager;
 
 import com.model.Department;
@@ -13,13 +15,18 @@ public class Demo2
 	{
 		EntityManager em1 = EMUtil.proviEntityManager();
 
-		Employee emp = em1.find(Employee.class, 3);
+		Department dept = em1.find(Department.class, 1);
 
-		Department dept = emp.getDept();
+		List<Employee> emps = dept.getEmps();
 
-		System.out.println(dept.getDeptId());
-		System.out.println(dept.getDname());
-		System.out.println(dept.getLocation());
+		emps.forEach(e ->
+		{
+
+			System.out.println(e.getEmpId());
+			System.out.println(e.getName());
+			System.out.println(e.getSalary());
+			System.out.println("============");
+		});
 
 		em1.close();
 		System.out.println("Done....");

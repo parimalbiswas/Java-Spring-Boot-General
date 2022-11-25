@@ -8,7 +8,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.persistence.OneToMany;
+import javax.persistence.ManyToMany;
 
 @Entity
 public class Department
@@ -19,8 +19,8 @@ public class Department
 	private String dname;
 	private String location;
 
-	@OneToMany(cascade = CascadeType.ALL, mappedBy = "dept")
-	private List<Employee> emps = new ArrayList<>();
+	@ManyToMany(cascade = CascadeType.ALL)
+	private List<Employee> empList = new ArrayList<>();
 
 	public int getDeptId()
 	{
@@ -52,20 +52,21 @@ public class Department
 		this.location = location;
 	}
 
-	public List<Employee> getEmps()
+	public List<Employee> getEmpList()
 	{
-		return emps;
+		return empList;
 	}
 
-	public void setEmps(List<Employee> emps)
+	public void setEmpList(List<Employee> empList)
 	{
-		this.emps = emps;
+		this.empList = empList;
 	}
 
 	@Override
 	public String toString()
 	{
-		return "Department [deptId=" + deptId + ", dname=" + dname + ", location=" + location + ", emps=" + emps + "]";
+		return "Department [deptId=" + deptId + ", dname=" + dname + ", location=" + location + ", empList=" + empList
+				+ "]";
 	}
 
 }
