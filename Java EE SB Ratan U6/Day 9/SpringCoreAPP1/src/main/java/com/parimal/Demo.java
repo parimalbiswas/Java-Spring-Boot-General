@@ -9,9 +9,9 @@ public class Demo
 	{
 		ApplicationContext contx1 = new ClassPathXmlApplicationContext("applicationContext.xml");
 
-		MyBusinessClass obj1 = contx1.getBean("mb", MyBusinessClass.class);
+		Travel travel = contx1.getBean("tr", Travel.class);
 
-		obj1.fun1();
+		travel.journey();
 
 	}
 }

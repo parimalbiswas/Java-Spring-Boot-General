@@ -4,6 +4,22 @@
     xsi:schemaLocation="http://www.springframework.org/schema/beans
         https://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="mb" class="com.parimal.MyBusinessClass"/>
+
+	<bean id="c" class="com.parimal.Car"/>
+	<bean id="b" class="com.parimal.Bike"/>
+	
+
+
+
+
+
+    <bean id="tr" class="com.parimal.Travel">
+    
+    	<property name="noOfPerson" value="5"></property>
+    	<property name="vehicle" ref="b"></property>
+    
+    
+    
+    </bean>
 
 </beans>
