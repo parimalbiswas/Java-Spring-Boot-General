@@ -5,21 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08c8a8aa-585b-468b-b76c-42296ffd148a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Day 5/Live5_Subendu/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Day 5/Live5_Subendu/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Day 5/Live5_Subendu/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Day 5/Live5_Subendu/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Day 5/Live5_Subendu/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Day 5/Live5_Subendu/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Day 5/Live5_Subendu/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Day 5/Live5_Subendu/src/main/java/com/jpql/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Day 5/Live5_Subendu/src/main/java/com/jpql/Address2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Day 5/Live5_Subendu/src/main/java/com/jpql/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Day 5/Live5_Subendu/src/main/java/com/jpql/Demo2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Day 5/Live5_Subendu/src/main/java/com/jpql/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Day 5/Live5_Subendu/src/main/java/com/jpql/Employee2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Day 5/Live5_Subendu/src/main/resources/META-INF/persistence.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../../Java EE SB Ratan U6/Day 8/Day8/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
