@@ -8,29 +8,29 @@ public class Travel
 	// Simple Value Type Object
 	private int noOfPerson;
 
-	// Setter Injection Point
-	public void setVehicle(Vehicle vehicle)
-	{
-		this.vehicle = vehicle;
-	}
-
-	// Setter Injection Point
-	public void setNoOfPerson(int noOfPerson)
-	{
-		this.noOfPerson = noOfPerson;
-	}
-
-//	public Travel(Vehicle vehicle)
+//	// Setter Injection Point
+//	public void setVehicle(Vehicle vehicle)
 //	{
-//		super();
 //		this.vehicle = vehicle;
 //	}
 //
-//	public Travel()
+//	// Setter Injection Point
+//	public void setNoOfPerson(int noOfPerson)
 //	{
-//		super();
+//		this.noOfPerson = noOfPerson;
 //	}
-//	
+
+	public Travel(Vehicle vehicle, int noOfPerson)
+	{
+		super();
+		this.vehicle = vehicle;
+		this.noOfPerson = noOfPerson;
+	}
+
+	public Travel()
+	{
+		super();
+	}
 
 	public void journey()
 	{
