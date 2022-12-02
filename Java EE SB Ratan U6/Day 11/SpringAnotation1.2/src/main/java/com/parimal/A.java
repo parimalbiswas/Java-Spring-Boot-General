@@ -1,32 +1,33 @@
 package com.parimal;
 
-import java.util.List;
-
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.core.env.Environment;
 import org.springframework.stereotype.Component;
 
 @Component
 public class A
 {
-	@Autowired
-	@Qualifier(value = "b2")
-	private B b1;
+//	@Value("${id}")
+//	private int id;
+//	@Value("${name}")
+//	private String name;
+//	@Value("${salary}")
+//	private int salary;
 
 	@Autowired
-	private Student s1;
-
-	@Autowired
-	@Qualifier(value = "getNames")
-	List<String> cities;
+	private Environment env;
 
 	public void funA()
 	{
 		System.out.println("inside funA of A");
-		System.out.println(b1);
 
-		System.out.println(cities);
+//		System.out.println(id);
+//		System.out.println(name);
+//		System.out.println(salary);
 
-		System.out.println(s1);
+		System.out.println(env.getProperty("id"));
+		System.out.println(env.getProperty("name"));
+		System.out.println(env.getProperty("salary"));
+
 	}
 }
