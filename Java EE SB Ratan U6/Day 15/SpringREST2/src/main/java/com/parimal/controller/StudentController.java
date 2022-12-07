@@ -4,9 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -56,9 +58,55 @@ public class StudentController
 		String res1 = "";
 
 		students.add(student);
-		res1 = "Added....";
+		res1 = "Student Added Succssfully....";
 
 		return res1;
+	}
+
+	@PutMapping("/students/{roll}")
+	public Student updateStudentHandeler1Entire(@RequestBody Student studentResv, @PathVariable("roll") Integer roll)
+	{
+		boolean flag = false;
+
+		Student studentRETURN = null;
+
+		for (Student elem1 : students)
+		{
+			if (elem1.getRoll() == roll)
+			{
+				elem1.setName(studentResv.getName());
+				elem1.setMarks(studentResv.getMarks());
+				flag = true;
+			}
+
+			studentRETURN = elem1;
+		}
+
+		if (flag != true)
+		{
+			throw new IllegalArgumentException("Student does not exist with roll " + roll);
+		}
+
+		return studentRETURN;
+	}
+
+	@DeleteMapping("/students/{roll}")
+	public Student deleteStudentByRollHandeler(@PathVariable("roll") Integer roll)
+	{
+		Student student = null;
+
+		boolean flag = students.removeIf(s -> s.getRoll() == roll);
+
+		if (flag != true)
+		{
+			throw new IllegalArgumentException("Student does not exist with roll " + roll);
+		}
+		else
+		{
+			System.out.println("Sutudent Deleted Succsfully...");
+		}
+
+		return student;
 	}
 
 }
