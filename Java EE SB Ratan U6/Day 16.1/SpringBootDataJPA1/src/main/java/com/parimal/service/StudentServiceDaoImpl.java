@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 
 import com.parimal.exception.StudentException;
 import com.parimal.model.Student;
+import com.parimal.model.StudentDTO;
 import com.parimal.repository.StudentRepositoryDao;
 
 @Service
@@ -159,6 +160,21 @@ public class StudentServiceDaoImpl implements StudentServiceDao
 	public List<String> getNameAndMarksByAddress(String address) throws StudentException
 	{
 		List<String> result = sRepoDao.getNameAndMarksByAddress(address);
+
+		if (result.size() == 0)
+		{
+			throw new StudentException("No Student Found By this Address " + address);
+		}
+		else
+		{
+			return result;
+		}
+	}
+
+	@Override
+	public List<StudentDTO> getNameAndMarksByAddress2(String address) throws StudentException
+	{
+		List<StudentDTO> result = sRepoDao.getNameAndMarksByAddress2(address);
 
 		if (result.size() == 0)
 		{

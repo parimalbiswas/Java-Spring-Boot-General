@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.parimal.exception.StudentException;
 import com.parimal.model.Student;
+import com.parimal.model.StudentDTO;
 import com.parimal.service.StudentServiceDao;
 
 @RestController
@@ -104,6 +105,33 @@ public class StudentController
 		String name = sServiceDao.getStudentNameByRoll(roll);
 
 		return new ResponseEntity<String>(name, HttpStatus.OK);
+	}
+
+	@GetMapping("/getnamemarksbyaddress/{add}")
+	public ResponseEntity<List<String>> getNameAndMarksByAddressHandler(@PathVariable("add") String address)
+			throws StudentException
+	{
+		List<String> results = sServiceDao.getNameAndMarksByAddress(address);
+
+		for (String elem : results)
+		{
+			String arr[] = elem.split(",");
+			System.out.println("Name is " + arr[0]);
+			System.out.println("Marks is " + arr[1]);
+		}
+
+		return new ResponseEntity<List<String>>(results, HttpStatus.OK);
+
+	}
+
+	@GetMapping("/getnamemarksbyaddresssto/{add}") // By DTO
+	public ResponseEntity<List<StudentDTO>> getNameAndMarksByAddressHandler2(@PathVariable("add") String address)
+			throws StudentException
+	{
+		List<StudentDTO> results = sServiceDao.getNameAndMarksByAddress2(address);
+
+		return new ResponseEntity<List<StudentDTO>>(results, HttpStatus.OK);
+
 	}
 
 }

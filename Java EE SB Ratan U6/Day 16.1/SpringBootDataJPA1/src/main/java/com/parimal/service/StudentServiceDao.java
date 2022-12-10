@@ -4,6 +4,7 @@ import java.util.List;
 
 import com.parimal.exception.StudentException;
 import com.parimal.model.Student;
+import com.parimal.model.StudentDTO;
 
 public interface StudentServiceDao
 {
@@ -28,5 +29,7 @@ public interface StudentServiceDao
 	public String getStudentNameByRoll(Integer roll) throws StudentException;
 
 	public List<String> getNameAndMarksByAddress(String address) throws StudentException;
+
+	public List<StudentDTO> getNameAndMarksByAddress2(String address) throws StudentException; // ByDTO
 
 }

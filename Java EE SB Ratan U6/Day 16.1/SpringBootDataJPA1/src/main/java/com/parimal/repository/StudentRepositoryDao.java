@@ -8,6 +8,7 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Repository;
 
 import com.parimal.model.Student;
+import com.parimal.model.StudentDTO;
 
 @Repository
 public interface StudentRepositoryDao extends JpaRepository<Student, Integer>
@@ -21,5 +22,8 @@ public interface StudentRepositoryDao extends JpaRepository<Student, Integer>
 
 	@Query("select s.name,s.marks from Student s where s.address = ?1")
 	public List<String> getNameAndMarksByAddress(String address);
+
+	@Query("select new com.parimal.model.StudentDTO(s.name,s.marks) from Student s where s.address = ?1")
+	public List<StudentDTO> getNameAndMarksByAddress2(String address); // By DTO
 
 }
