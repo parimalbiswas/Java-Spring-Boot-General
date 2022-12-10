@@ -110,8 +110,64 @@ public class StudentServiceDaoImpl implements StudentServiceDao
 	@Override
 	public List<Student> getStudentsByMarks(Integer marks) throws StudentException
 	{
-		// TODO Auto-generated method stub
-		return null;
+		List<Student> students = sRepoDao.findByMarks(marks);
+
+		if (students.size() == 0)
+		{
+			throw new StudentException("No Student Found...");
+		}
+		else
+		{
+			return students;
+		}
+	}
+
+	@Override
+	public Student getStudentByAddress(String address) throws StudentException
+	{
+		Student student = sRepoDao.findByAddress(address);
+
+		if (student == null)
+		{
+			throw new StudentException("Student Not Found with address : " + address);
+		}
+		else
+		{
+
+			return student;
+		}
+
+	}
+
+	@Override
+	public String getStudentNameByRoll(Integer roll) throws StudentException
+	{
+		String name = sRepoDao.getStudentNameByRoll(roll);
+
+		if (name == null)
+		{
+			throw new StudentException("Student Not Found with Roll : " + roll);
+		}
+		else
+		{
+			return name;
+		}
+
+	}
+
+	@Override
+	public List<String> getNameAndMarksByAddress(String address) throws StudentException
+	{
+		List<String> result = sRepoDao.getNameAndMarksByAddress(address);
+
+		if (result.size() == 0)
+		{
+			throw new StudentException("No Student Found By this Address " + address);
+		}
+		else
+		{
+			return result;
+		}
 	}
 
 }

@@ -23,4 +23,10 @@ public interface StudentServiceDao
 
 	public List<Student> getStudentsByMarks(Integer marks) throws StudentException;
 
+	public Student getStudentByAddress(String address) throws StudentException;
+
+	public String getStudentNameByRoll(Integer roll) throws StudentException;
+
+	public List<String> getNameAndMarksByAddress(String address) throws StudentException;
+
 }

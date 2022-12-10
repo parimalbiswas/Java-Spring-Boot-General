@@ -78,4 +78,32 @@ public class StudentController
 
 		return new ResponseEntity<Student>(updatedStudent, HttpStatus.ACCEPTED);
 	}
+
+	@GetMapping("/getstudentbymarks/{marks}")
+	public ResponseEntity<List<Student>> getStudentsByMarksHandler(@PathVariable("marks") Integer marks)
+			throws StudentException
+	{
+		List<Student> students = sServiceDao.getStudentsByMarks(marks);
+
+		return new ResponseEntity<List<Student>>(students, HttpStatus.OK);
+	}
+
+	@GetMapping("/getstudentbyaddress/{address}")
+	public ResponseEntity<Student> getStudentsByAddressHandler(@PathVariable("address") String address)
+			throws StudentException
+	{
+		Student student = sServiceDao.getStudentByAddress(address);
+
+		return new ResponseEntity<Student>(student, HttpStatus.OK);
+	}
+
+	@GetMapping("/getname/{roll}")
+	public ResponseEntity<String> getStudentNameByRollHandler(@PathVariable("roll") Integer roll)
+			throws StudentException
+	{
+		String name = sServiceDao.getStudentNameByRoll(roll);
+
+		return new ResponseEntity<String>(name, HttpStatus.OK);
+	}
+
 }
