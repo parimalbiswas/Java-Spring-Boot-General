@@ -18,24 +18,21 @@ public class Student
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer roll;
+
 	private String name;
+
 	private Integer marks;
 
 	@Embedded
-	private Address address; // has-A
+	private Address address;
 
 	@ManyToMany(cascade = CascadeType.ALL)
-	private Set<Course> courseslList = new HashSet<>();
-
-	public Student()
-	{
-		// TODO Auto-generated constructor stub
-	}
+	private Set<Course> courseSet = new HashSet<>();
 
 	@Override
 	public int hashCode()
 	{
-		return Objects.hash(address, marks, name);
+		return Objects.hash(address, marks, name, roll);
 	}
 
 	@Override
@@ -46,17 +43,7 @@ public class Student
 		if (getClass() != obj.getClass()) return false;
 		Student other = (Student) obj;
 		return Objects.equals(address, other.address) && Objects.equals(marks, other.marks)
-				&& Objects.equals(name, other.name);
-	}
-
-	public Student(Integer roll, String name, Integer marks, Address address, Set<Course> courseslList)
-	{
-		super();
-		this.roll = roll;
-		this.name = name;
-		this.marks = marks;
-		this.address = address;
-		this.courseslList = courseslList;
+				&& Objects.equals(name, other.name) && Objects.equals(roll, other.roll);
 	}
 
 	public Integer getRoll()
@@ -99,14 +86,14 @@ public class Student
 		this.address = address;
 	}
 
-	public Set<Course> getCourseslList()
+	public Set<Course> getCourseSet()
 	{
-		return courseslList;
+		return courseSet;
 	}
 
-	public void setCourseslList(Set<Course> courseslList)
+	public void setCourseSet(Set<Course> courseSet)
 	{
-		this.courseslList = courseslList;
+		this.courseSet = courseSet;
 	}
 
 	@Override
