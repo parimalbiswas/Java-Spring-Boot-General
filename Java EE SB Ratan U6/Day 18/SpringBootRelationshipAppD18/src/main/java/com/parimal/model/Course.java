@@ -80,10 +80,4 @@ public class Course
 		this.studentSet = studentSet;
 	}
 
-	@Override
-	public String toString()
-	{
-		return "Course [courseId=" + courseId + ", courseName=" + courseName + ", fee=" + fee + "]";
-	}
-
 }

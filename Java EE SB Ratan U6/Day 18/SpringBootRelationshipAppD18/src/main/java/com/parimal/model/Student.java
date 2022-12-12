@@ -4,6 +4,8 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 import jakarta.persistence.CascadeType;
 import jakarta.persistence.Embedded;
 import jakarta.persistence.Entity;
@@ -26,6 +28,7 @@ public class Student
 	@Embedded
 	private Address address;
 
+	@JsonIgnore
 	@ManyToMany(cascade = CascadeType.ALL)
 	private Set<Course> courseSet = new HashSet<>();
 

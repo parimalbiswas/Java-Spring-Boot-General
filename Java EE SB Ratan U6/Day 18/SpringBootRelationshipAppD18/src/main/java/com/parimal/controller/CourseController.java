@@ -21,7 +21,7 @@ public class CourseController
 	{
 		Course addedCourse = cServiveDao.registerNewCourse(course);
 
-		return new ResponseEntity<Course>(addedCourse, HttpStatus.ACCEPTED);
+		return new ResponseEntity<Course>(addedCourse, HttpStatus.CREATED);
 
 	}
 }

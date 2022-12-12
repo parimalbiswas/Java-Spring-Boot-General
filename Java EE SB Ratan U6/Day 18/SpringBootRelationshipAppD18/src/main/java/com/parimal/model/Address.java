@@ -50,10 +50,4 @@ public class Address
 		this.pincode = pincode;
 	}
 
-	@Override
-	public String toString()
-	{
-		return "Address [state=" + state + ", city=" + city + ", pincode=" + pincode + "]";
-	}
-
 }
