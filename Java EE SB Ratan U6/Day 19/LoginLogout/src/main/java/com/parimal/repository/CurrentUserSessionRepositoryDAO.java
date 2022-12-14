@@ -9,6 +9,6 @@ import com.parimal.model.CurrentUserSession;
 public interface CurrentUserSessionRepositoryDAO extends JpaRepository<CurrentUserSession, Integer>
 {
 
-	public CurrentUserSession findByUuid();
+	public CurrentUserSession findByUuid(String uuid);
 
 }
